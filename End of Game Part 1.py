@@ -45,3 +45,73 @@ print("When you open them, you find yourself in a massive throne room."
 print()
 print("You will have to defeat him to continue.")
 print()
+print("Goblin King")
+#Ascii_Art.Goblin_King()
+print()
+
+bullet = 10
+print(f"1: Use your gun. {bullet} bullets")
+print("2: ")
+print("3: ")
+attack_goblin = input("What do you want to do (1, 2, 3)? ")
+
+
+if attack_goblin == "1":
+    print(f"You choose option {attack_goblin}")
+    print("You used your gun an defeated the Goblin King")
+
+elif attack_goblin == "2":
+    print(f"You choose option {attack_goblin}")
+    print("")
+
+elif attack_goblin == "3":
+    print(f"You choose option {attack_goblin}")
+    print("")
+
+else:
+    print("You failed to choose correctly.")
+    print("""
+      ._. ._. ._.________          _____              __  ._. ._. ._.
+  | | | | | |\______ \   _____/ ____\____ _____ _/  |_| | | | | |
+  | | | | | | |    |  \_/ __ \   __\/ __ \\__  \\   __\ | | | | |
+   \|  \|  \| |   _|   \  ___/|  | \  ___/ / __ \|  |  \|  \|  \|
+   __  __  __/_______  /\___  >__|  \___  >____  /__|  __  __  __
+   \/  \/  \/        \/     \/          \/     \/      \/  \/  \/
+
+                                              .""--..__
+                        _                     []       ``-.._
+                     .'` `'.                  ||__           `-._
+                    /    ,-.\                 ||_ ```---..__     `-.
+                   /    /:::\`               /|//}          ``--._  `.
+                   |    |:::||              |////}                `-. \ 
+                   |    |:::||             //'///                    `.\ 
+                   |    |:::||            //  ||'                      `|
+                   /    |:::|/        _,-//\  ||
+                  /`    |:::|`-,__,-'`  |/  \ ||
+                /`  |   |'' ||           \   |||
+              /`    \   |   ||            |  /||
+            |`       |  |   |)            \ | ||
+           |          \ |   /      ,.__    \| ||
+           /           `         /`    `\   | ||
+          |                     /        \  / ||
+          |                     |        | /  ||
+          /         /           |        `(   ||
+         /          .           /          )  ||
+        |            \          |             ||
+       /             |          /             ||
+      |\            /          |              ||
+      \/`-._       |           /              ||
+       //   `.    /`           |              ||
+      //`.    `. |             \              ||
+     ///\ `-._  )/             |              ||
+    //// )   .(/               |              ||
+    ||||   ,'` )               /              //
+     ||  /                    /             ||
+        /`                    |             //
+        |`                     \            ||
+       /                        |           //
+     /`                          \         //
+   /`                            |        ||
+   `-.___,-.      .-.        ___,'        (/
+            `---'`   `'----'`
+    """)
