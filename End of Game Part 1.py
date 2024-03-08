@@ -1,3 +1,5 @@
+import Ascii_Art
+
 print()
 print("After continuing for sometime, you find yourself back in the toy factory,"
       "\nbut something has changed. Now, only one door remains."
