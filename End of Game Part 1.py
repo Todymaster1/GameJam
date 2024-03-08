@@ -46,13 +46,13 @@ print()
 print("You will have to defeat him to continue.")
 print()
 print("Goblin King")
-#Ascii_Art.Goblin_King()
+Ascii_Art.Goblin_King()
 print()
 
 bullet = 10
 print(f"1: Use your gun. {bullet} bullets")
-print("2: ")
-print("3: ")
+print("2: Throw your hat at him.")
+print("3: Jump at him an knock him into a pit.")
 attack_goblin = input("What do you want to do (1, 2, 3)? ")
 
 
@@ -62,12 +62,17 @@ if attack_goblin == "1":
 
 elif attack_goblin == "2":
     print(f"You choose option {attack_goblin}")
-    print("")
+    print("You threw your hat at him.")
+    print("It was secretly a bomb and the Goblin King blows up.")
 
 elif attack_goblin == "3":
     print(f"You choose option {attack_goblin}")
-    print("")
+    print("You knock him into the pit.")
+    print("He has fallen and can't get up.")
 
 else:
     print("You failed to choose correctly.")
-    #Ascii_Art.defeat()
+    Ascii_Art.defeat()
+
+print("You Win!!!")
+Ascii_Art.victory()
